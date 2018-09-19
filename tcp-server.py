@@ -40,3 +40,5 @@ while True:
 
     clientHandler = threading.Thread(target=handle_client, args=(client,))
     clientHandler.start()
+
+server.close()
